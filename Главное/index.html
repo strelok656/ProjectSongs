@@ -5,16 +5,18 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
 	<script type="text/javascript" src="bootstrap.bundle.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>project</title>
 </head>
 <body>
 <nav class="navbar navbar-danger navbar-expand-lg sticky-top bg-light">
-	
-	<a class="navbar-brand px-3" href="index.html">ProjectSongs</a>
+	<a class="navbar-brand px-3" href="index.html"><img id="note" src="img/musicnote.png">ProjectSongs</img></a>
 	<a class="btn btn-dark mr-3" href="/C:/Users/1/Desktop/ya/Проект/Страницы/artists.html">Исполнители</a>
+
 	<ul class="navbar-nav mr-auto text-white">
 		<li class="nav-item dropdown px-3">
 			<a class="nav-link dropdown-toggle" href="C:\Users\1\Desktop\ya\Проект\Страницы" id="navbarDropdown" role="button" data-bs-toggle="dropdown">Жанры</a>
+
 			<div class="dropdown-menu">
 				<a class="dropdown-item" href="#">Электроника</a>
 				<a class="dropdown-item" href="#">Рок</a>
@@ -24,28 +26,40 @@
 			</div>
 		</li>
 	</ul>
+
  	<form class="d-flex px-3">
     	<input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Поиск">
     	<button class="btn btn-outline-dark" type="submit">Искать</button>
     </form>
-
 </nav>
 
-<div class="container pt-5">
-	<div class="row">
-		ProjectSongs
-	</div>
-	<div class="row">
-		Это сайт поддерживающий и предоставляющий тексты песен различных жанров и исполнителей
+
+ <div class="sidenav"><!-- Боковая панель -->
+	<ul>
+		Самые популярные хиты
+		<li><a href="weeknd-blindinglights.html">The Weeknd — Blinding Lights</a></li>
+		<li><a href="beatles-yesterday.html">The Beatles — Yesterday</a></li>
+		<li><a href="raycharles-whatdisay.html">Ray Charles — What’d I Say</a></li>
+		<li><a href="arethafranklin-respect.html">Aretha Franklin — Respect</a></li>
+		<li><a href="bobdylan-likearollingstone.html">Bob Dylan — Like a Rolling Stone</a></li>
+    </ul>
+</div>
+
+<header>
+	<!-- <div class="overlay"></div> -->
+	<div class="container pt-5 pl-2">
+		<div class="row" align="center">
+			<div class="col-15">
+				<h1 id="header_text">Project Songs - сборник текстов песен различнейших жанров, исполнителей</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-8">
+				<p class="header_description">Приветствуем</p>
+			</div>
+		</div>
 	</div>
 </div>
-<frameset>
-	<frame noresize>
-		
-	</frame>
-</frameset>
-<style type="text/css">
-	
-</style>
+</header>
 </body>
 </html>
